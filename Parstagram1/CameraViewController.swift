@@ -18,9 +18,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageView: UIImageView! //image view
     
-    @IBOutlet weak var commentField: UITextField!
+    @IBOutlet weak var commentField: UITextField! //comment field section
     
     @IBAction func onSubmit(_ sender: Any) {
         let post = PFObject(className: "Posts")
